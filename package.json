@@ -1,0 +1,8 @@
+{
+  "name": "@bubbly-lab/code-style",
+  "version": "1.0.0",
+  "private": true,
+  "description": "code-style for bubbly lab",
+  "author": "@bubbly-lab/dev",
+  "packageManager": "pnpm@10.17.1"
+}

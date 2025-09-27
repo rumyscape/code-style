@@ -1,0 +1,26 @@
+{
+  "name": "@bubbly-lab/biome-config",
+  "version": "1.0.0",
+  "description": "biome config for bubbly lab",
+  "keywords": [
+    "bubbly-lab",
+    "@biomejs/biome",
+    "biome",
+    "biome-config"
+  ],
+  "homepage": "https://github.com/rumyscape/code-style",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rumyscape/code-style.git",
+    "directory": "packages/biome-config"
+  },
+  "author": "@bubbly-lab/dev",
+  "license": "MIT",
+  "exports": {
+    "./base.json": "./base.json"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": ">=2"
+  },
+  "packageManager": "pnpm@10.17.1"
+}
