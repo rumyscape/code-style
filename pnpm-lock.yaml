@@ -6,7 +6,14 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      '@biomejs/biome':
+        specifier: 2.2.4
+        version: 2.2.4
+      '@bubbly-lab/biome-config':
+        specifier: workspace:*
+        version: link:packages/biome-config
 
   packages/biome-config:
     dependencies:

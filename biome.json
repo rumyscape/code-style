@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@bubbly-lab/biome-config/base.json"
+  ]
+}
