@@ -4,10 +4,14 @@
   "private": true,
   "description": "code-style for bubbly lab",
   "author": "@bubbly-lab/dev",
-  "packageManager": "pnpm@10.17.1",
+  "scripts": {
+    "check": "biome check",
+    "check:fix": "biome check --fix"
+  },
   "devDependencies": {
     "@biomejs/biome": "2.2.4",
     "@bubbly-lab/biome-config": "workspace:*",
     "lefthook": "^1.13.6"
-  }
+  },
+  "packageManager": "pnpm@10.17.1"
 }
