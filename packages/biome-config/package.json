@@ -17,7 +17,8 @@
   "author": "@bubbly-lab/dev",
   "license": "MIT",
   "exports": {
-    "./base.json": "./base.json"
+    "./base.json": "./base.json",
+    "./react.json": "./react.json"
   },
   "peerDependencies": {
     "@biomejs/biome": "2.3.6"
