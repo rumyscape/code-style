@@ -5,4 +5,13 @@ pre-push:
 
 pre-commit:
   jobs:
-    - run: pnpm biome check {staged_files}
+    - run: pnpm biome check --fix "{staged_files}"
+      glob:
+        - "*.js"
+        - "*.jsx"
+        - "*.ts"
+        - "*.tsx"
+        - "*.json"
+        - "*.jsonc"
+        - "*.css"
+      stage_fixed: true
