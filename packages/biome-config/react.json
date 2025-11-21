@@ -1,21 +1,5 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.3.6/schema.json",
-  "extends": ["./base.json"],
-  "linter": {
-    "rules": {
-      "style": {
-        "useImportType": {
-          "level": "error",
-          "options": {
-            "style": "auto"
-          }
-        }
-      },
-      "suspicious": {
-        "useIterableCallbackReturn": "off"
-      }
-    }
-  },
   "css": {
     "parser": {
       "tailwindDirectives": true
