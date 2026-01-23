@@ -8,6 +8,11 @@
   "javascript": {
     "formatter": {
       "jsxQuoteStyle": "single"
+    },
+    "linter": {
+      "suspicious": {
+        "noShadowRestrictedNames": "warn"
+      }
     }
   }
 }
