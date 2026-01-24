@@ -1,5 +1,12 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.3.12/schema.json",
+  "linter": {
+    "rules": {
+      "suspicious": {
+        "noShadowRestrictedNames": "warn"
+      }
+    }
+  },
   "css": {
     "parser": {
       "tailwindDirectives": true
@@ -8,11 +15,6 @@
   "javascript": {
     "formatter": {
       "jsxQuoteStyle": "single"
-    },
-    "linter": {
-      "suspicious": {
-        "noShadowRestrictedNames": "warn"
-      }
     }
   }
 }
